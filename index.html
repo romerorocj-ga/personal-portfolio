@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e42ca2cb1f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Front End Developer</p>
+          <h1>Hi, Im <span>Charlie</span><br />From Boston, MA</h1>
+        </div>
+      </div>
+    </div>
+    <!--ABOUT-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/Headshot.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Versatile Software Engineer with a diverse background in
+              Information Technology and Customer Success that combines my
+              passion for technology . In my previous career I worked at SaaS
+              companies where I honed my skills in problem-solving, attention to
+              detail, and project management . With a solid foundation in IT, I
+              transitioned into software engineering, bringing transferable
+              skills driven to develop innovative software that is scalable and
+              sustainable over time and meets the consumer demand. My goal is to
+              leverage these skills to develop websites and apps that have a
+              daily impact on users’ lives.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>JavaScript</span><br /></li>
+                <li><span>HTML</span><br /></li>
+                <li><span>CSS</span><br /></li>
+                <li><span>Python</span><br /></li>
+                <li><span>React.js</span><br /></li>
+                <li><span>MongoDB</span><br /></li>
+                <li><span>PostgreSQL</span><br /></li>
+                <li><span>Express</span><br /></li>
+                <li><span>Node.js</span><br /></li>
+                <li><span>Mongoose</span><br /></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2023 - Present</span><br />
+                  General Assembly
+                </li>
+                <li><span>2021 - 2023</span><br />Crayon</li>
+                <li><span>2021 - 2021</span><br />JP Morgan & Chase</li>
+                <li><span>2019 - 2020</span><br />Hubspot</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023</span><br />Software Engineering Immersive at
+                  General Assembly
+                </li>
+                <li>
+                  <span>JavaScript</span><br />Information Technology at Year Up
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Projects -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="img/Simon.png" />
+            <div class="layer">
+              <h3>SIMON</h3>
+              <p>
+                Game of lights and sounds in which players must repeat random
+                sequences of lights by pressing the colored pads in the correct
+                order. It's fast-paced play, with lights and sounds that can
+                challenge you. Experience the fun as you repeat the patterns and
+                advance to higher levels.
+              </p>
+              <a href="https://github.com/romerorocj-ga/simon-project"
+                ><i
+                  class="fa-brands fa-square-github"
+                  style="color: rgb(26, 209, 222)"
+                ></i
+              ></a>
+              <a href="https://romerorocj-ga.github.io/simon-project/"
+                ><i
+                  class="fa-solid fa-up-right-from-square"
+                  style="color: rgb(26, 209, 222)"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/VgTracker.png" />
+            <div class="layer">
+              <h3>VgTacker</h3>
+              <p>
+                Welcome to VgTracker, your ultimate destination for staying in
+                the loop with the latest and greatest games on the horizon!
+                Whether you're a hardcore gamer or just someone with a passion
+                for pixels, VgTracker is here to make your gaming wishlist
+                management a breeze.
+              </p>
+              <a href="https://github.com/romerorocj-ga/vgTracker-project"
+                ><i
+                  class="fa-brands fa-square-github"
+                  style="color: rgb(26, 209, 222)"
+                ></i
+              ></a>
+              <a href="https://vg-tracker-project.onrender.com"
+                ><i
+                  class="fa-solid fa-up-right-from-square"
+                  style="color: rgb(26, 209, 222)"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/trail.png" />
+            <div class="layer">
+              <h3>TrailTrekker</h3>
+              <p>
+                Embark on a journey of discovery with our hiking app! 'Explore,
+                Track, Conquer: Your Adventures, Your Trail!' Trailtrekker is
+                your ultimate companion for logging every step of your hiking
+                expeditions. Seamlessly track your routes, monitor your
+                progress, and relive the thrill of conquering new trails.
+                Wherever your path leads, let our app be your guide to a world
+                of adventure. Lace up, explore nature, and leave no trail
+                undocumented!
+              </p>
+              <a href="https://github.com/romerorocj-ga/trailtrekker"
+                ><i
+                  class="fa-brands fa-square-github"
+                  style="color: rgb(26, 209, 222)"
+                ></i
+              ></a>
+              <a href="https://trailtrekker-gfb2.onrender.com/"
+                ><i
+                  class="fa-solid fa-up-right-from-square"
+                  style="color: rgb(26, 209, 222)"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i
+                class="fa-solid fa-envelope"
+                style="color: rgb(26, 209, 222)"
+              ></i>
+              charliejoelromero@gmail.com
+            </p>
+            <p>
+              <i
+                class="fa-solid fa-square-phone"
+                style="color: rgb(26, 209, 222)"
+              ></i>
+              617-820-2381
+            </p>
+            <div class="social-icons">
+              <a href="https://github.com/romerorocj-ga"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/charliejromero"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="img/Charlie_Romero_SEResume.pdf" download class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script defer src="main.js"></script>
+    <script>
+      const scriptURL =
+        'https://script.google.com/macros/s/AKfycbzWfW6dqw7oCRDuguBtwtUNCs0gjm0dZzmOXUyS_1nJIIqG14J0cH2hb2RzqOkuXJ6vnw/exec';
+      const form = document.forms['submit-to-google-sheet'];
+      const msg = document.getElementById('msg');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = 'Message Sent Successfully';
+            setTimeout(function () {
+              msg.innerHTML = '';
+            }, 2000);
+            form.reset();
+          })
+          .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
+  </body>
+</html>
